@@ -1,0 +1,20 @@
+.sidebar {
+    height: 100%;
+    grid-area: sidebar;
+    background-color: #7e7e7e;
+    color: white;
+    li{padding: .5rem;}
+    li:hover{
+        background-color: yellowgreen;
+    }
+    a{
+        color: #dedede;
+        padding: 1rem;
+        &.active{
+            color: gold;
+        }
+        &:hover{
+            color: white;
+        }
+    }
+}
